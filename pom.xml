@@ -93,11 +93,11 @@
 	</dependencies>
 	
 	<distributionManagement>
- <releaseRepository>
+ <repository>
 	      <id>nexus</id>
 	      <name>Digieras tech release Nexus Repository </name>
 	      <url>http://52.91.236.67:8081/nexustest/repository/jenkins/</url>
-	    </releaseRepository>	
+	    </repository>	
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
