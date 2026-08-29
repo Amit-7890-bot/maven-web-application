@@ -93,14 +93,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
-
-
+ <releaseRepository>
+	      <id>nexus</id>
+	      <name>Digieras tech release Nexus Repository </name>
+	      <url>http://52.91.236.67:8081/nexustest/repository/jenkins/</url>
+	    </releaseRepository>	
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Digieras tech Snapshot Nexus Repository </name>
-	      <url>http://54.92.200.137:8081/nexustest/repository/Maven-dependencies/</url>
+	      <url>http://52.91.236.67:8081/nexustest/repository/jenkins/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
